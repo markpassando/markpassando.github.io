@@ -28,11 +28,12 @@
 		)
 	);
 
+@import url('https://fonts.googleapis.com/css?family=Lato');
 // Font.
 	$font: (
-		family:					('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:			('Courier New', monospace),
-		family-heading:			(Raleway, Helvetica, sans-serif),
+		family:					('Lato',Source Sans Pro, Helvetica, sans-serif),
+		family-fixed:			('Lato', 'Courier New', monospace),
+		family-heading:			('Lato', Raleway, Helvetica, sans-serif),
 		weight:					300,
 		weight-bold:			600,
 		weight-heading:			200,

@@ -1,0 +1,24 @@
+{
+  "name": "markpassando.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass -w assets/sass/main.scss assets/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markpassando/markpassando.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markpassando/markpassando.github.io/issues"
+  },
+  "homepage": "https://github.com/markpassando/markpassando.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
