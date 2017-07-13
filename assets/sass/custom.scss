@@ -1,6 +1,12 @@
 .skill-box {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 600px;
+
+  div {
+    margin: 10px;
+  }
 }
 
 .side-icon {

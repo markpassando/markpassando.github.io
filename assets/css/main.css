@@ -2663,7 +2663,11 @@ body.is-menu-visible #menu {
 
 .skill-box {
   display: flex;
-  justify-content: space-between; }
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 600px; }
+  .skill-box div {
+    margin: 10px; }
 
 .side-icon {
   font-size: 100px;
